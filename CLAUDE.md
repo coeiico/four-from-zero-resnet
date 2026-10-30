@@ -123,6 +123,12 @@ remove an item that is done.
   Each generation, self-play shards run on `cpu=8` workers and write to the runs Volume, then a
   GPU function (an L4 is enough) trains on them. Checkpoint every generation.
 
+## Local Runs
+
+- Start every local training run, sweep or long analysis in tmux with `just bg <recipe> [args]`,
+  for example `just bg train --run-name wd1.0-seed0`. `tmux ls` lists the sessions and
+  `tmux attach -t <session>` watches one; each session's output is also in `runs/logs/`.
+
 ## Project Overview
 
 four-from-zero-resnet is project 11 of 18 in the Latent Space Project: small ML repos that test whether
