@@ -2,11 +2,7 @@
 
 **AlphaZero on Connect Four.** AlphaZero-style self-play on Connect Four, probing the value network for concepts like threats and centre control.
 
-Part of the **Latent Space Project**: 18 small PyTorch repos that test one idea, that neural networks encode concepts and strategy in their latent space, and that we can read and edit those representations. Everything trains on a single consumer GPU or a laptop.
-
-| Roadmap | Phase | Depends on | Status |
-| --- | --- | --- | --- |
-| 11 of 18 | 4. Strategy and navigation | Connect Four engine from blindfold-tfm | Not started (scaffolded) |
+**Status:** not started.
 
 ## Question
 
@@ -27,7 +23,7 @@ Does self-play alone discover Connect Four strategy, and does the value network 
 
 - It reliably beats the heuristic agent, and at least one concept probe clearly beats its control.
 
-Plus the definition of done every Latent Space Project repo shares:
+Plus the general checklist:
 
 Apply this checklist with the project-specific requirements and exceptions in
 [CLAUDE.md](CLAUDE.md#project-specific-scope).
